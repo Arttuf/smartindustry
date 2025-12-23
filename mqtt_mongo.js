@@ -25,7 +25,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 // Replace the URI-string below by your own URI (get that from Mongo DB Atlas 
 // Connect > driver > NodeJs (v. 6.7), don't forget to add your own username & password to the string
-const uri = "mongodb+srv://eki:eki@cluster0.91fze.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
+const uri = "mongodb+srv://AF_db_user:ERlb6tw25tqLQmlK@clusterio.hudzwk7.mongodb.net/?retryWrites=true&w=majority&appName=Clusterio"; 
 
 const client = new MongoClient(uri, {
   serverApi: {
